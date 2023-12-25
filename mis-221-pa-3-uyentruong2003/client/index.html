@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pokemon</title>
+    <!-- My CSS -->
+    <link href="./style/index.css" rel="stylesheet" >
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="background" onload="handleOnLoad()">
+    <h1 class="title" id="page-title">Find Your Pokemon</h1>
+    <form class="input-group mb-3 mx-auto p-2" style="width: 800px;">
+      <input type="text" class="form-control" id="searchBar" placeholder="Search Pokemon..." aria-label="Search Pokemon">
+      <!-- <button class="btn btn-primary" type="button" id="search-button">Search</button> -->
+    </form>
+    <!-- Pokemon Table -->
+    <table class="table table-striped mx-auto p-2 table-outline" style="width: 800px;" id="pokemon-table">
+        <thead class="table-danger">
+          <tr>
+            <th scope="col" class="text-center table-header">Pokemon Name</th>
+            <th scope="col" class="text-center table-header">Learn More?</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <!-- My JS -->
+    <script src="./scripts/functions_index.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

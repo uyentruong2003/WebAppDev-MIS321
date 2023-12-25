@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: gold;
+    font-weight: 900;
+}
+
+.background {
+    background-color: bisque;
+}
+
+.table-outline {
+    outline:auto;
+}
+
+.table-header {
+    font-size: 20px;
+}
+
+.name-format {
+    color: darkred;
+    font-weight: 500;
+    font-style:italic;
+}
+
+.avatar {
+    width: 500px;
+    height:500px;
+}

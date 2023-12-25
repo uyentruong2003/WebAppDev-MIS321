@@ -1,0 +1,16 @@
+.center-container {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.line-spacing {
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}

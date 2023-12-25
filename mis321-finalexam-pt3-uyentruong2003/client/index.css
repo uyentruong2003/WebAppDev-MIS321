@@ -1,0 +1,16 @@
+.main-title{
+    text-align: center;
+    font-weight:800;
+    font-size: 70px;
+    color: darkblue;
+}
+
+.search-bar{
+    margin-left: 220px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.background{
+    background-color: lightsteelblue;
+}
